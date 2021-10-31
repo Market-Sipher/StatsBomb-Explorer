@@ -81,7 +81,7 @@ class lineup(competition):
 #     main(sys.argv)
 
 #python skeleton_parser_v2.py ebay_data/items-*.json
-class match(competition):
+class match(competition): #This class is not working and under construction 👷‍♂️
     def __init__(self, json_file):
         super().__init__(json_file)
         self.matches = [{"match_id","match_id","kick_off","competition","season","home_team","away_team","home_score","away_score","match_status","match_status_360","last_updated","last_updated_360","metadata","match_week","competition_stage","stadium","referee"}]
