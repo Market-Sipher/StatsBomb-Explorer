@@ -69,13 +69,16 @@ class lineup(competition):
 
 # def main(argv):
 #     if len(argv) < 2:
-#         print >> sys.stderr, 'Usage: python skeleton_json_parser.py <path to json files>'
+#         print >> sys.stderr, 'Usage: python parser.py <path to json files>'
 #         sys.exit(1)
 #     # loops over all .json files in the argument
 #     for f in argv[1:]:
 #         if isJson(f):
-#             parseJson(f)
-#             print ("Success parsing " + f) 
+#             x = match()
+#             x.parser(filepath)
+#             print ("Success parsing " + f)
+# def jsJson(f):
+# need to do this eventually
 
 # if __name__ == '__main__':
 #     main(sys.argv)
